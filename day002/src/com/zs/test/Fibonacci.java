@@ -16,6 +16,7 @@ public class Fibonacci {
         for (int i = 1; i < 1000; i = i + pre) {
             System.out.println(i);
             pre = i - pre;
+
         }
     }
 }
