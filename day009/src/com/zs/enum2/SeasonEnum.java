@@ -3,6 +3,8 @@ package com.zs.enum2;
 enum:语法糖，本质不变，改变用法。编译不变
 * */
 public enum SeasonEnum {
+    /* 实际编译为public static final com.zs.enum2.SeasonEnum AUTUMN;*/
+    /*额外加了些其他内容*/
     AUTUMN("秋", "皎如秋月"),
     SPRING("春", "灿如春华"),
     SUMMER("夏", "生如夏花"),
